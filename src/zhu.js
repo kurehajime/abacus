@@ -7,8 +7,9 @@ export class InputZhu extends HTMLElement {
 
         this.shadowRoot.innerHTML = `
 <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
-    <polygon id="up" points="0 50, 50 20, 100 50" stroke-width="1" stroke="#8d6449" fill="#8d6449" />
-    <polygon id="down" points="0 50, 50 80, 100 50" stroke-width="1" stroke="#96514d" fill="#96514d" />
+    <polygon id="down" points="0 50, 50 20, 100 50" stroke-width="1" stroke="#8d6449" fill="#8d6449" />
+    <polygon id="up" points="0 50, 50 80, 100 50" stroke-width="1" stroke="#96514d" fill="#96514d" />
+    <rect x="0" y="47" width="100" height="6" fill="#8d6449" />
 </svg>
         `
     }
